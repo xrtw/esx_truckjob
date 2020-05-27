@@ -3,7 +3,7 @@ Adds the ability for players to drive for a trucking company (default/lore-frien
 
 ## Requirements
 * [es_extended](https://github.com/ESX-Org/es_extended)
-* [es_skin](https://github.com/ESX-Org/esx_skin)
+* [esx_skin](https://github.com/ESX-Org/esx_skin)
 
 ## Download
 
