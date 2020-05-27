@@ -44,10 +44,10 @@ Config.TruckRentalLocations = {
   Alternate sprites and colors can be found at https://docs.fivem.net/docs/game-references/blips/
 ]]
 Config.BlipProperties = {
-  name    = _U("blip_name"),
-  sprite  = 477,
-  color    = 5,
-  short    = true
+  name		= _U("blip_name"),
+  sprite	= 477,
+  color		= 5,
+  short		= true
 }
 
 --[[
@@ -57,8 +57,8 @@ Config.BlipProperties = {
   Alternate marker types can be found at https://docs.fivem.net/docs/game-references/markers/
 ]]
 Config.LockerMarkerProperties = {
-  type      = 25,
-  distance  = 50,
-  color      = {red = 255, green = 255, blue = 0, alpha = 150},
-  scale      = vector3(1.5, 1.5, 1.5)
+  type			= 25,
+  distance	= 50,
+  color			= {red = 255, green = 255, blue = 0, alpha = 150},
+  scale			= vector3(1.5, 1.5, 1.5)
 }

@@ -1,6 +1,6 @@
 --[[ ESX Data and Functions ]]--
 
-ESX                = nil
+ESX              	= nil
 local PlayerData  = nil
 
 
@@ -59,9 +59,9 @@ Citizen.CreateThread(function()
     if not isTrucker then
       Citizen.Wait(500)
     else
-      local ped      = PlayerPedId()
-      local pos      = GetEntityCoords(ped)
-      local onFoot  = IsPedOnFoot(ped)
+      local ped			= PlayerPedId()
+      local pos			= GetEntityCoords(ped)
+      local onFoot	= IsPedOnFoot(ped)
       for i = 1, #Config.TruckRentalLocations, 1 do
         local loc = Config.TruckRentalLocations[i].locker
         local dist = GetDistanceBetweenCoords(pos.x, pos.y, pos.z, loc.x, loc.y, loc.z, true)
