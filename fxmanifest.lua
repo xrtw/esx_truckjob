@@ -9,17 +9,17 @@ author 'Kenneth McDonough'
 
 --[[ Script Content ]]--
 client_scripts {
-	'@es_extended/locale.lua',
-	'locale/en.lua',
-	'config.lua',
-	'client/main.lua'
+  '@es_extended/locale.lua',
+  'locale/en.lua',
+  'config.lua',
+  'client/main.lua'
 }
 
 server_scripts {
-	'@es_extended/locale.lua',
-	'locale/en.lua',
-	'config.lua',
-	'server/main.lua'
+  '@es_extended/locale.lua',
+  'locale/en.lua',
+  'config.lua',
+  'server/main.lua'
 }
 
 --ui_page 'ui/interface.html'
